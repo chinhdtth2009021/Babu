@@ -1,11 +1,236 @@
 body{
-    font-weight: 500;
-    font-size: 18px;
+    /* font-weight: 500; */
+    font-size: 16px;
+    /* font-family: 'Sen'; */
+    color: #47131A;
 }
 /* img{
    width: 100%;
 } */
-/* -----------header--------------- */
-header{
-    padding: 0 100px;
+a {
+    font-weight: 700;
+    color: #47131A !important;
+    text-decoration: none
 }
+/* -----------header--------------- */
+header .navbar{
+    padding: 10px 50px;
+
+}
+.icon-logo img{
+    background-color: #FFE000;
+    border-radius: 20px;
+}
+/* --------------section---------- */
+/* -------------menu left------------- */
+section .menu-left {
+    padding-top: 50px;
+    /* border-right: 1px solid rgb(0, 0, 0); */
+}
+
+.flex-column .menu-home{
+    background-color: #FFFAD9;
+}
+.flex-column a{
+    padding: 10px;
+}
+.flex-column .icon-menu-left{
+    padding: 0 5px;
+}
+.flex-column a:hover{
+    background-color:#FFE000; 
+}
+.flex-column a:focus{
+    background-color:#FFE000;   
+}
+.img-menu-left img{
+    float: right;
+    /* width: 33.33%; */
+    padding: 5px 20px;
+}
+.flex-column .farms {
+    background-color: rgb(245, 50, 115);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.flex-column .game-base{
+    background-color: #FFE000;
+    color: #47131A;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.flex-column .blind-box {
+    background-color: #7e2d9e;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.flex-column .guide {
+    background-color: #EBE8E2;
+    color: #47131A;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+ 
+.dropdown-btn:focus {
+    background-color: #FFE000;
+    color: #47131A;
+  }
+  
+  .dropdown-container {
+    display: none;
+    padding-left: 5px;
+  }
+ .dropdown-container a{
+     display: grid;
+    background-color: #FFFAD9;
+    padding-left: 15px;
+  }
+
+  
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+/* --------------menu right-------------- */
+section .menu-right{
+    padding: 50px 20px;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+.menu-right .box1 {
+    position:relative;
+    background-color: #FFE000;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+    color: #47131A;
+    font-weight: 400;
+}
+.box1 .title-1, .title-2{
+    border-right: 1px solid  #F6B200;
+}
+.menu-right .box2{
+    position:relative;
+    padding: 40px 0;
+    color: #47131A;
+    font-weight: 400;
+}
+.menu-right .box2 span {
+    color: #98795C;
+}
+.box2 .nav-pills {
+    background: #EBE8E2;
+    padding: 10px;
+    border-radius: 12px;
+    width: 70%;
+}
+.box2 .nav-pills button{
+    color: #47131A !important;
+    font-weight: 500;
+}
+.box2 .nav-pills .active{
+    background-color: #FFE000;
+    color: #47131A !important;
+    font-weight: 700;
+}
+.box2 .nav-pills button:focus {
+    font-weight: 700;
+    background-color: #FFE000;
+    padding: 10px 15px;
+    border-radius: 10px;
+color: #47131A;
+  }
+.menu-right .box3 {
+    position:relative;
+    background-color: #FAE1E0;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 400;
+}
+.menu-right .box4 {
+    position:relative;
+    padding: 20px;
+    background-color: #FDF1CC; 
+    border-radius: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.menu-right .box5 {
+    position:relative;
+    padding: 20px;
+    background-color: #F0F8DB; 
+    border-radius: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.menu-right .box6 {
+    position:relative;
+    padding: 20px;
+    background-color: #EAE9FD; 
+    border-radius: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.menu-right .box7 {
+    position:relative;
+    padding: 20px;
+    background-color: #EDF8FE; 
+    border-radius: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.menu-right .phase{
+    background-color: #FFFAD9;
+    color: #2D1B0E;
+    padding: 6px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.title-box{
+    padding: 10px 0;
+    color: #47131A;
+}
+.text-box{
+    color: #47131A;
+}
+.menu-right .text-box span{
+    color: #47131A;
+    font-weight: 700;
+}
+
+
+  
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #47131A;
+    font-weight: 500;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+ 
+
+/* -------------------Responsive-------------------- */
+@media (max-width: 1440px) {}
+@media (max-width: 1366px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {
+    .box2 .nav-pills{
+        width: 70%;
+    }
+}
+@media (max-width: 576px) {}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}   
